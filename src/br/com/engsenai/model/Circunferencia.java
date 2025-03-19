@@ -18,6 +18,7 @@ public class Circunferencia {
 	}
 	
 	public void mostrarDados() {	
+		System.out.println("----------------------------------------------------------");
 		System.out.println("Circunferência\nraio = " + raio);
 		System.out.println("área da circunferência = " + String.format("%.1f", calcularArea()));
 		System.out.println("----------------------------------------------------------");

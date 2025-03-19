@@ -32,6 +32,7 @@ public class Retangulo {
 	}
 	
 	public void mostrarDados() {
+		System.out.println("----------------------------------------------------------");
 		System.out.println("Retângulo\nbase = " + base);
 		System.out.println("altura = " + altura);
 		System.out.println("área do retangulo = " + String.format("%.1f", calcularArea()));

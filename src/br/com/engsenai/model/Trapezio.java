@@ -32,11 +32,12 @@ public class Trapezio {
 	
 	private double calcularArea() {
 		
-		double area = basemaior + basemenor * altura / 2;
+		double area = (basemaior + basemenor) * altura / 2;
 		return area;
 	}
 	
 	public void mostrarDados() {
+		System.out.println("----------------------------------------------------------");
 		System.out.println("Trapézio\nbase maior = " + basemaior);
 		System.out.println("base menor = " + basemenor);
 		System.out.println("altura = " + altura);

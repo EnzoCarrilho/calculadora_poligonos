@@ -28,6 +28,7 @@ public class Triangulo {
 	}
 	
 	public void mostrarDados() {
+		System.out.println("----------------------------------------------------------");
 		System.out.println("Triângulo\nbase = " + base);
 		System.out.println("altura = " + altura);
 		System.out.println("área do triângulo = " + String.format("%.1f", calcularArea()));
